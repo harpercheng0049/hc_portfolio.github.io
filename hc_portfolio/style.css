@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+
+body {
+  font-family: "Hammersmith One", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --big-font-size: 3.5rem;
+  --small-font-size: 0.85rem;
+  --color-green: #d9ff47;
+  --hover-color: #a3c90a;
+  --regular-transition: all 0.4s ease-in-out;
+}
+
+/* ================ Index Page Start ================ */
+
+/* ----- Banner ----- */
+h1 {
+  font-size: var(--big-font-size);
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: var(--small-font-size);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--hover-color);
+  transition: var(--regular-transition);
+}
+
+.container .border .skills {
+  color: var(--color-green);
+}
+
+.container .border .skills span {
+  font-size: var(--small-font-size);
+}
+
+/* ----- MOTION GRAPHIC ----- */
+
+.title_MG_size {
+  width: 40vw;
+}
+
+.decoration_line {
+  margin: 0 auto;
+  max-width: 85vw;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 40px;
+}
+
+.decoration_box_text {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 85vw;
+  height: 40px;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.decoration_text {
+  text-align: center;
+  color: var(--color-green);
+  font-size: 1.65rem;
+}
+
+/* ----- PRODUCT PROMO ----- */
+
+.title_PP_size {
+  width: 52vw;
+}
+
+/* ----- 3D ANIMATION ----- */
+
+.title_3A_size {
+  width: 35vw;
+}
+
+.green_decoration_line {
+  width: 100%;
+  overflow: hidden;
+}
+.green_decoration_line img {
+  width: 100vw;
+}
+
+/* ----- Footer ----- */
+.footer_box {
+  width: 100%;
+}
+
+.footer_box img {
+  width: 74vw;
+}
+
+/* ================ Index Page End ================ */
+
+/* ================ GRAPHICS & 3D WORKS Start ================ */
+.title_G_size {
+  width: 22vw;
+  margin: 30px 0 40px 20px;
+}
+
+.title_3W_size {
+  width: 21vw;
+  margin: 8px 0 40px 20px;
+}
+
+.work_box {
+  width: 78vw;
+  margin: 0 auto;
+}
+/* ================ GRAPHICS & 3D WORKS End ================ */
+
+/* ================ CONTACT ME Start ================ */
+.contact_box {
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 35px;
+}
+
+.circle_green_box {
+  position: relative;
+}
+
+.circle_green_box img {
+  position: absolute;
+  right: 15px;
+  top: -50px;
+  z-index: 1;
+}
+
+.dark_green {
+  color: var(--hover-color);
+}
+
+.green-btn {
+  background-color: var(--color-green);
+  color: #000;
+  transition: var(--regular-transition);
+}
+
+.green-btn:hover {
+  background-color: #000;
+  color: var(--color-green);
+}
+/* ================ CONTACT ME End ================ */
